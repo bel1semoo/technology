@@ -13,7 +13,6 @@ body {
     font-family: 'Inter Tight', sans-serif;
 }
 
-
 .header__logo {
     display: flex;
     padding-top: 20px;
@@ -83,3 +82,4 @@ body {
 .tecnho__button {
     
 }
+
