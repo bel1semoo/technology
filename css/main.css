@@ -13,6 +13,7 @@ body {
     font-family: 'Inter Tight', sans-serif;
 }
 
+
 .header__logo {
     display: flex;
     padding-top: 20px;
@@ -82,4 +83,96 @@ body {
 .tecnho__button {
     
 }
+
+
+/*===================================================*/
+.page__spectrum {
+    background: #F1F2FB;
+    width: 1920px;
+    height: 773px;
+}
+/*===================================================*/
+.specrtum__body {
+    display:flex;
+}
+.spectrum__info {
+    margin-right: 207px;
+}
+.spectrum__image{
+    margin:128px 0 127px 0;
+    width: 623px;
+    height: 517.25px;
+}
+/*===================================================*/
+.info__title {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 120%;
+    color: #150035;
+    margin:179px 0 50px 0;
+}
+.info__sub-title {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 130%;
+    color: #222222;
+    margin-bottom: 20px;
+}
+.info__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #222222;
+    max-width: 618px;
+    margin-bottom: 50px;
+}
+.info__button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 50px;
+    gap: 10px;
+    width: 276px;
+    height: 56px;
+    background: #222222;
+    border-radius: 50.1141px;
+    /* Текст в кнопке */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+/*===================================================*/
+.page__products {
+
+}
+/*===================================================*/
+.products {
+
+}
+.products__container {
+
+}
+.products__body {
+    display:flex;
+}
+.products__image {
+
+}
+.products__text {
+
+}
+/*===================================================*/
+.text {
+}
+.text__title {
+}
+.text__subtitle {
+}
+.text__info {
+}
+.text__button {
+}
+/*===================================================*/
 
