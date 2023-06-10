@@ -1,1 +1,1 @@
-# technology
+ввцува
