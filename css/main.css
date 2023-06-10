@@ -84,6 +84,28 @@ body {
     
 }
 
+.main__list {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.main__text-1 {
+    padding-top: 55px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #150035;
+}
+
+.main__text-2 {
+    padding-left: 165px;
+    padding-top: 30px;
+}
+
+
+.main__text {
+    padding-top: 30px;
+    padding-left: 100px;
+}
 
 /*===================================================*/
 .page__spectrum {
@@ -175,4 +197,63 @@ body {
 .text__button {
 }
 /*===================================================*/
+
+.spectre {
+    padding-top: 150px;
+}
+
+.custom__spectre {
+    font-weight: 600;
+    font-size: 50px;
+    color: #14014F;
+}
+
+.import__tools {
+    padding-top: 101px;
+}
+
+.custom__tools {
+    font-weight: 600;
+    font-size: 35px;
+    color: #222222;
+    
+}
+
+.po {
+    
+    font-weight: 400;
+    font-size: 20px;
+    color: #222222;
+    
+}
+
+.grid__info {
+    display: flex;
+    padding-top: 50px;
+}
+
+.grid__math {
+    display: inline-block;
+    padding: 110px 30px;
+    background: #F1F2FB;
+    border-radius: 20px;
+}
+
+.state {
+    display: flex;
+    padding-left: 20px;
+}
+
+.state__info {
+    font-weight: 400;
+    font-size: 20px;
+    color: #222222;
+}
+
+.state__text {  
+    padding: 37px 45px 37px 30px;
+    background: #FFFFFF;
+    border: 1px solid #E9EAF4;
+    border-radius: 10px;
+}
 
