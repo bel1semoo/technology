@@ -10,9 +10,10 @@ body {
 .wrapper {
     min-height: 100%;
     overflow: hidden;
+}
+body{
     font-family: 'Inter Tight', sans-serif;
 }
-
 
 .header__logo {
     display: flex;
@@ -42,11 +43,9 @@ body {
     background-size: cover;
     background-position: center center;
     padding-bottom: 100px;
-    
 }
 
 .tecnho__agents {
-    
 }
 
 .agent {
@@ -136,43 +135,119 @@ body {
     height: 56px;
     background: #222222;
     border-radius: 50.1141px;
-    /* Текст в кнопке */
-    font-style: normal;
+}
+.info__button a{
     font-weight: 600;
     font-size: 20px;
     line-height: 130%;
     color: #FFFFFF;
 }
+.info__button:hover{
+    background: #2E81CC;
+}
 /*===================================================*/
 .page__products {
-
+    background: #F4FDFF;
+    padding-top:150px;
+}
+.page__services {
+    background: #F8F7FF;
 }
 /*===================================================*/
-.products {
-
-}
-.products__container {
-
-}
 .products__body {
     display:flex;
 }
 .products__image {
-
+    margin:10% 153px 10% 0;;
+  
 }
 .products__text {
-
+    max-width: 756px;
 }
 /*===================================================*/
-.text {
-}
 .text__title {
-}
-.text__subtitle {
-}
-.text__info {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 120%;
+    color: #150035;
+    margin-bottom: 50px;
 }
 .text__button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 50px;
+    gap: 10px;
+    width: 291px;
+    height: 56px;
+    background: #222222;
+    border-radius: 50.1141px;
+}
+.text__button a{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 130%;
+        color: #FFFFFF;
+}
+.text__button:hover{
+    background: #2E81CC;
+}
+.text__electrical{
+    margin-bottom: 40px;
+}
+.text__technical-supervision{
+    margin-bottom: 50px;
 }
 /*===================================================*/
 
+.technical-supervision__subtitle {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 130%;
+    color: #222222;
+    margin-bottom: 20px;
+}
+.technical-supervision__info {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #222222;
+}
+
+/*===================================================*/
+.electrical__subtitle {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 130%;
+    color: #222222;
+    margin-bottom: 20px;
+}
+.electrical__info {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #222222;
+}
+/*===================================================*/
+
+
+
+
+
+
+
+.services__body {
+}
+.services__service {
+}
+/*===================================================*/
+.service {
+}
+.service__title {
+}
+.service__info {
+}
+.service__button {
+}
+.services__image {
+}
