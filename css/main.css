@@ -1,3 +1,7 @@
+body {
+
+}
+
 [class*="__container"]{
     max-width: 1503px;
     margin: 0 auto;
@@ -8,6 +12,79 @@
     overflow: hidden;
     font-family: 'Inter Tight', sans-serif;
 }
+
+
+.header__logo {
+    display: flex;
+    padding-top: 20px;
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__list {
+    display: flex;
+    column-gap: 70px;
+    padding-left: 287px;
+    padding-top: 20px;
+}
+
+.header__item {
+    font-weight: 600;
+    font-size: 18px;
+    color: #222222;
+}
+
+.techno {
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 100px;
+    
+}
+
+.tecnho__agents {
+    
+}
+
+.agent {
+    color: #fff;
+    font-weight: 500;
+    font-size: 100px;
+}
+
+.techno__container {
+    
+}
+.techno__info{
+    
+}
+
+.techno__mathes {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.techno__math {
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+}
+
+.techno__btn {
+    padding: 15px 50px;
+    border-radius: 50px;
+    background: #fff;
+    color: #222222;
+}
+
+.tecnho__button {
+    
+}
+
+
 /*===================================================*/
 .page__spectrum {
     background: #F1F2FB;
@@ -98,3 +175,4 @@
 .text__button {
 }
 /*===================================================*/
+
