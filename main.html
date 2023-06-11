@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="../Technology/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter+Tight:ital,wght@0,200;0,300;0,400;0,500;0,600;0,900;1,900&family=Inter:wght@300;700;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter+Tight:ital,wght@0,200;0,300;0,400;0,500;0,600;0,900;1,900&family=Inter:wght@300;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> 
     <title>Главная</title>
 </head>
 <body>
@@ -131,47 +133,71 @@
             </div>
 
             <div class="import__grid">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"></div>
+                        <div class="swiper-slide"></div>
+                        <div class="swiper-slide"></div>
+                        <div class="swiper-slide"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
                 <div class="grid__container">
                     <div class="grid__info">
                         <div class="grid__math">
                             <p class="po">Решение для управления инструментальным <br> хозяйством СПЕКТР — являются полностью <br> собственной разработкой и включено реестр <br> отечественного ПО</p>
                         </div>
 
-                        <div class="state">
+                        <div class="state__grid">
                             <div class="state__container">
-                                <div class="state__text">
-                                    <ul class="state__list">
-                                        <li class="list"><span class="state__info">Свидетельство о государственной <br> регистрации: 2021616958. Реестр <br> отечественного ПО № 11678 от 28.09.2021</span></li>
-                                    </ul>
-                                    
+                                <div class="state__info">
+                                    <div class="state__math">
+                                       <ul>
+                                            <li> Свидетельство о государственной <br> регистрации: 2021616958. Реестр <br> отечественного ПО № 11678 от 28.09.2021</li>
+                                       </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="state">
-                            <div class="state__container">
-                                <div class="state__text">
-                                    <ul class="state__list-2">
-                                        <li class="list"><span class="state__info">Свидетельство о государственной <br> регистрации: 2021616958. Реестр <br> отечественного ПО № 11678 от 28.09.2021</span></li>
-                                    </ul>           
-                                </div>
+                            <div class="state__do">
+                                <div class="state__container-2">
+                                    <div class="state__width">
+                                        <div class="state__math">
+                                            <ul>
+                                                <li>Решение внедрено на предприятиях <br> входящих в корпорации ОАК и Роскосмос</li>
+                                            </ul>
+                                        </div> 
+                                    </div> 
+                                </div> 
                             </div>
                         </div>
-
-                    </div>      
+                        <div class="function">
+                            <p class="func">Функционал системы СПЕКТР позволяет заменить такие зарубежные аналоги, как TDM, Zoller, Guhring </p>
+                        </div>
+                        <div class="import__btn">
+                            <button class="btn">Узнать подробнее</button>
+                        </div>   
+                    </div>
+                    <div class="picture">
+                        <img src="../technology/img/ua.jpg" alt="">
+                    </div> 
                 </div>
+                
             </div>
-
             
-
+            
            
         </main>
+        
         <footer class="footer">
             <div class="footer__container">
 
             </div>
         </footer>
    </div>
+
+   <script src="../technology/js/slider.js"></script>
 </body>
 </html>
-123
