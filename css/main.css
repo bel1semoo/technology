@@ -3,11 +3,8 @@
     margin: 0 auto;
     padding:0 15px;
 }
-.wrapper {
-    min-height: 100%;
-    overflow: hidden;
-}
 body{
+    min-height: 100%;
     font-family: 'Inter Tight', sans-serif;
 }
 
@@ -288,11 +285,16 @@ body{
     line-height: 130%;
     color: #222222;
     margin-bottom:10px;
+    display: flex;
+}
+.service__info ol li p{
+    margin-left: 5px;
+}
+.service__info{
+    width: 600px;
+    margin-bottom: 50px;
 }
 .service__button {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     padding: 15px 50px;
     gap: 10px;
     width: 261px;
@@ -354,5 +356,91 @@ body{
     background: #2E81CC;
 }
 .relations__button a:hover{
+    color: #FFFFFF;
+}
+
+
+/*===================================================*/
+.why-are-we {
+    background: #121217;
+    padding:150px 0;
+}
+.why-are-we__partners{
+    margin-bottom: 30px;
+}
+/*===================================================*/
+.partners__title {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.partners__info {
+    width: 1012px;
+    height: 182px;
+    background: #2E81CC;
+    border-radius: 20px;
+    padding: 55px 49px;
+}
+.partners__info-text{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+/*===================================================*/
+.why-are-we__profit {
+}
+/*===================================================*/
+.profit__title {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.profit__cards-1 {
+    display:flex;
+    gap:20px;
+}
+.profit__cards{
+    margin-bottom: 50px;
+}
+.profit__cards-2 {
+    display:flex;
+    gap:20px;
+}
+.card-1{
+    margin-bottom: 20px;
+}
+.profit__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 496px;
+    height: 220px;
+    background: #B9DEFF;
+    border-radius: 20px;
+/*===================================================*/
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    text-align: center;
+    color: #222222;
+}
+.profit__button{
+    align-items: flex-start;
+    width: 206.23px;
+    height: 56.07px;
+    background: #FFFFFF;
+    border-radius: 50.1141px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #222222;
+}
+.profit__button:hover{
+    background: #2E81CC;
     color: #FFFFFF;
 }
