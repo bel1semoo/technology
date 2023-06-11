@@ -1,7 +1,3 @@
-body {
-
-}
-
 [class*="__container"]{
     max-width: 1503px;
     margin: 0 auto;
@@ -23,7 +19,10 @@ body{
 .header__list {
     display: flex;
 }
-
+.header{
+    position: absolute;
+    left:200px;
+}
 .header__list {
     display: flex;
     column-gap: 70px;
@@ -36,53 +35,6 @@ body{
     font-size: 18px;
     color: #222222;
 }
-
-.techno {
-    background-image: url('../img/bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding-bottom: 100px;
-}
-
-.tecnho__agents {
-}
-
-.agent {
-    color: #fff;
-    font-weight: 500;
-    font-size: 100px;
-}
-
-.techno__container {
-    
-}
-.techno__info{
-    
-}
-
-.techno__mathes {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.techno__math {
-    font-weight: 400;
-    font-size: 30px;
-    color: #fff;
-}
-
-.techno__btn {
-    padding: 15px 50px;
-    border-radius: 50px;
-    background: #fff;
-    color: #222222;
-}
-
-.tecnho__button {
-    
-}
-
 .main__list {
     display: flex;
     padding-bottom: 50px;
@@ -206,10 +158,10 @@ body{
     border-radius: 50.1141px;
 }
 .text__button a{
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 130%;
-        color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
 }
 .text__button:hover{
     background: #2E81CC;
@@ -221,8 +173,6 @@ body{
     margin-bottom: 50px;
 }
 /*===================================================*/
-
-<<<<<<< HEAD
 .spectre {
     padding-top: 150px;
 }
@@ -281,8 +231,6 @@ body{
     border: 1px solid #E9EAF4;
     border-radius: 10px;
 }
-
-=======
 .technical-supervision__subtitle {
     font-weight: 600;
     font-size: 35px;
@@ -320,18 +268,91 @@ body{
 
 
 .services__body {
+    display: flex;
+    margin:150px 231px 174px 0;
 }
 .services__service {
+    margin-right: 284px;
 }
 /*===================================================*/
-.service {
-}
 .service__title {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 120%;
+    color: #150035;
+    margin-bottom: 50px;
 }
-.service__info {
+.service__info ol li {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #222222;
+    margin-bottom:10px;
 }
 .service__button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 50px;
+    gap: 10px;
+    width: 261px;
+    height: 56px;
+    background: #222222;
+    border-radius: 50.1141px;
 }
-.services__image {
+.service__button a{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
 }
->>>>>>> bf5b5e0df00b8755074a874a5d498c420f7c9d2c
+.service__button:hover{
+    background: #2E81CC;
+}
+
+.page__technology {
+    background: url(../img/bg.jpg) no-repeat ;
+    width: 1920px;
+    height: 829px;
+}
+
+/*===================================================*/
+.technology__relations {
+    padding-top:200px
+}
+/*===================================================*/
+.relations__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.relations__text {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.relations__button {
+    gap: 10px;
+    width: 198px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 50.1141px;
+}
+.relations__button a{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #222222;
+    padding: 15px 50px;
+}
+.relations__button:hover{
+    background: #2E81CC;
+}
+.relations__button a:hover{
+    color: #FFFFFF;
+}
