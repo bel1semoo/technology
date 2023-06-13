@@ -12,7 +12,6 @@ body{
     display: flex;
     padding-top: 20px;
 }
-
 .header__list {
     display: flex;
 }
@@ -31,6 +30,9 @@ body{
     font-weight: 600;
     font-size: 18px;
     color: #222222;
+}
+.header__item:hover{
+    color: #150035;;
 }
 .main__list {
     display: flex;
