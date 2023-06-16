@@ -36,6 +36,7 @@
     padding:0 15px;
 }
 body{
+    max-width: 100%;
     min-height: 100%;
     font-family: 'Inter Tight', sans-serif;
 }
@@ -63,17 +64,9 @@ body{
     font-size: 18px;
     color: #222222;
 }
-<<<<<<< HEAD
 .header__item:hover{
     color: #150035;;
 }
-=======
-
-.header__item:hover {
-    
-}
-
->>>>>>> d835572285e768180d22a019c03ac573e88073e9
 .main__list {
     display: flex;
     padding-bottom: 50px;
@@ -100,7 +93,7 @@ body{
 /*===================================================*/
 .page__spectrum {
     background: #F1F2FB;
-    width: 1920px;
+    width: 100%;
     height: 773px;
 }
 /*===================================================*/
@@ -108,12 +101,14 @@ body{
     display:flex;
 }
 .spectrum__info {
-    margin-right: 207px;
+    margin-right: 10.8%
 }
 .spectrum__image{
-    margin:128px 0 127px 0;
-    width: 623px;
+    margin: 16.6% 0 16.6% 0;
     height: 517.25px;
+}
+.spectrum__image img{
+    max-width: 100%;
 }
 /*===================================================*/
 .info__title {
@@ -173,6 +168,9 @@ body{
 .products__image {
     margin:10% 153px 10% 0;;
   
+}
+.products__image img{
+    max-width: 100%;
 }
 .products__text {
     max-width: 756px;
@@ -412,10 +410,10 @@ body{
 
 .services__body {
     display: flex;
-    margin:150px 231px 174px 0;
+    margin:17.3% 26.7% 20.1% 0;
 }
 .services__service {
-    margin-right: 284px;
+    margin-right: 18.5%;
 }
 /*===================================================*/
 .service__title {
@@ -454,20 +452,22 @@ body{
     line-height: 130%;
     color: #FFFFFF;
 }
-
+.services__image{
+    max-width: 100%;
+    min-width: 40.6%;
+}
 .service__button:hover{
     background: #2E81CC;
 }
 
 .page__technology {
     background: url(../img/bg.jpg) no-repeat ;
-    width: 1920px;
     height: 829px;
 }
 
 /*===================================================*/
 .technology__relations {
-    padding-top:200px
+    padding-top:14.1%
 }
 /*===================================================*/
 .relations__title {
@@ -486,7 +486,6 @@ body{
     margin-bottom: 50px;
 }
 .relations__button {
-    gap: 10px;
     width: 198px;
     height: 56px;
     background: #FFFFFF;
@@ -603,10 +602,13 @@ body{
     height: 50%;
 }
 
-li.footer__li {
+.footer__li a {
     list-style: none;
     color: #fff;
     margin-bottom: 20px;
+}
+.footer__li a:hover{
+    color:#959597;
 }
 
 .header__item:hover {
@@ -733,4 +735,27 @@ li.footer__li {
 
 .footer__container {
     padding-bottom: 100px;
+}
+@media (max-width: 834px){
+    .header__row{
+        display:none;
+    }
+    [class*="__container"]{
+    }
+    .technology__relations{
+        max-width: 100%;
+    }
+    .relations__title{
+        font-size: 75px;
+        width: 100%;
+    }
+    .technology__relations{
+        padding-top: 300px;
+        margin:0 164px 227px 41px;
+    }
+    .page__technology{
+        background: url(../img/image28.png) no-repeat ;
+        width: 100%;
+        height: 976px;
+    }
 }
