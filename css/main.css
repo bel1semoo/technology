@@ -44,7 +44,6 @@ body{
     display: flex;
     padding-top: 20px;
 }
-
 .header__list {
     display: flex;
 }
@@ -64,11 +63,17 @@ body{
     font-size: 18px;
     color: #222222;
 }
+<<<<<<< HEAD
+.header__item:hover{
+    color: #150035;;
+}
+=======
 
 .header__item:hover {
     
 }
 
+>>>>>>> d835572285e768180d22a019c03ac573e88073e9
 .main__list {
     display: flex;
     padding-bottom: 50px;
