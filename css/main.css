@@ -26,7 +26,7 @@
 
 
 .swiper-button-next, .swiper-button-prev {
-    padding-top: 260%;
+    padding-top: 265%;
     
 }
 
@@ -592,16 +592,25 @@ body{
 }
 
 .logo__footer {
-    padding-top: -50px;
-    display: flex;
+    
     width: 50%;
     height: 50%;
+    display: flex;
+    align-items: center;
+    
 }
 
 li.footer__li {
     list-style: none;
     color: #fff;
     margin-bottom: 20px;
+}
+
+.footer__li-2 {
+    list-style: none;
+    color: #fff;
+    margin-bottom: 20px;
+    padding-left: 4px;
 }
 
 .header__item:hover {
